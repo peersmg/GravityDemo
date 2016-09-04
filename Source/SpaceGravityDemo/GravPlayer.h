@@ -63,7 +63,7 @@ public:
     AActor* pGravityPoint;          // Pointer to the current planet
 
   FVector gravityDirection;         // The current direction of gravity
-  bool grounded;                    // Is the player touching the ground
+  bool grounded;                    // Is the player touching the ground or not
 
   FRotator CurrentCapsuleRotation;  // The current rotation of the capsule
   
